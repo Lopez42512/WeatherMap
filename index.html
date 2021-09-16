@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>Weather Dashboard</h1>
+    </header>
+    <main id="mainContainer">
+      <div id="left">
+        <h3>Search for a City:</h3>
+        <input id="input" type="text" placeholder="Search for a City" />
+        <br>
+        <button id="searchBtn">Search</button>
+        <h3 id='displayError'></h3>
+        <div id="searchedCities"></div>
+      </div>
+      <div id="right">
+          <div id="cityContainer">
+              <h3 id="city"></h3>
+              <img id="cityImg" src="" alt="">
+              <p id="cityTemp"></p>
+              <p id="cityWind"></p>
+              <p id="cityHumidity"></p>
+              <!-- <p id="cityUvIndex"></p> -->
+          </div>
+          <h4>5-Day Forecast:</h4>
+          <div id="futureForecast">
+              <div class="day">
+                  <h3 class="date1"></h3>
+                  <img src="" alt="" class="icon1">
+                  <p class="temp1">Temp:</p>
+                  <p class="wind1">Wind:</p>
+                  <p class="humidity1">Humidity:</p>
+              </div>
+              <div class="day">
+                <h3 class="date2"></h3>
+                <img src="" alt="" class="icon2">
+                <p class="temp2">Temp:</p>
+                <p class="wind2">Wind:</p>
+                <p class="humidity2">Humidity:</p>
+            </div>
+            <div class="day">
+                <h3 class="date3"></h3>
+                <img src="" alt="" class="icon3">
+                <p class="temp3">Temp:</p>
+                <p class="wind3">Wind:</p>
+                <p class="humidity3">Humidity:</p>
+            </div>
+            <div class="day">
+                <h3 class="date4"></h3>
+                <img src="" alt="" class="icon4">
+                <p class="temp4">Temp:</p>
+                <p class="wind4">Wind:</p>
+                <p class="humidity4">Humidity:</p>
+            </div>
+            <div class="day">
+                <h3 class="date5"></h3>
+                <img src="" alt="" class="icon5">
+                <p class="temp5">Temp:</p>
+                <p class="wind5">Wind:</p>
+                <p class="humidity5">Humidity:</p>
+            </div>
+          </div>
+      </div>
+    </main>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./assets/javascript/index.js"></script>
+</html>
