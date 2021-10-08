@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Header from "./Components/Header";
 import MainContainer from "./Components/MainContainer";
-const apiKey = "b8033cd6f91ebcbedb1a8f2576574c01";
+const apiKey = "";
 
 class App extends Component {
     
